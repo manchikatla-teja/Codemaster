@@ -55,7 +55,7 @@
     animation-timing-function: linear;
     animation-delay: 0.5s;
     
-  }
+    }
   
 
     #b2{
@@ -123,8 +123,10 @@
 
     }
     100%{
-    top: 250px;
-    left: 321px;
+        top: 240px;
+     left: 310px;
+     height: 60px;
+    width: 60px;
     }
 
     }
