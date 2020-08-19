@@ -115,7 +115,7 @@
     }
     #ins{
      position: relative;
-     top: 410px;
+     top: 405px;
      height: 0px;
      left: 150px;
      animation-delay: 1200ms;
@@ -124,7 +124,7 @@
     #set{
      height: 0px;
      position: relative;
-     top: 479px;
+     top: 472px;
      right: 145px;
      animation-name: display1;
      animation-iteration-count: 1;
