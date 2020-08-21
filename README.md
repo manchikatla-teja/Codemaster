@@ -114,23 +114,18 @@
 
     }
     #ins{
-     position: relative;
-     top: 405px;
+     position: absolute;
+     top: 415px;
      height: 0px;
-     left: 150px;
+     left: 160px;
      animation-delay: 1200ms;
 
     }
     #set{
      height: 0px;
-     position: relative;
-     top: 472px;
-     right: 145px;
-     animation-name: display1;
-     animation-iteration-count: 1;
-     animation-fill-mode: backwards;
-     animation-timing-function: ; 
-     animation-duration: 1s;
+     position: absolute;
+     top: 480px;
+     left: 215px;
      animation-delay: 1.6s;
  
     }
@@ -197,17 +192,7 @@
       opacity: 100%;
      }
     }
-    @keyframes display1{
-     0%{
-      opacity: 0%;
-      left: 500px;
-
-     } 
-     100%{
-      opacity: 100%;
-      left: -145px;
-     }
-    }
+    
 
     </style>
      <body>
