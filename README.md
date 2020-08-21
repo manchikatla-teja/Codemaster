@@ -23,7 +23,7 @@
     https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png
     );
     }
-    #b,#b1,#b2,#b3{
+    #b1,#b2,#b3{
      animation-iteration-count: 1;
      animation-duration: 0.5s;
      animation-timing-function: linear;
