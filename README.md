@@ -266,8 +266,8 @@
       </div>
      </button>
      <button id="set">SETTINGS
-      <div class="a1">
-       <div class="l1"></div>
+      <div class="a3">
+       <div class="l3"></div>
       </div>
      </button>
 
