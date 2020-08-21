@@ -129,12 +129,47 @@
      animation-delay: 1.6s;
  
     }
+    .a1,.a2,.a3{
+     background-color: transparent;
+     height: 35px;
+     width: 35px;
+     border-radius: 50%;
+     border: 1px solid transparent;
+     position: absolute;
+     top: 13px;
+     left: -50px;
+  
+    }
+    .l1,.l2,.l3{
+     height: 35px;
+     width: 2px;
+     background-color: transparent;
+     position: absolute;
+     right: 17.5px
+  
+    }
+    
     #play:hover,#set:hover,#ins:hover{
      transform: scale(1.1);
      background-color: #f7dbbb;
 
     }
+    
+    #play:hover .l1,#ins:hover .l2,#set:hover .l3{
+     background-color: black;
+     animation-name: rotate;
+     animation-iteration-count: infinite;
+     animation-fill-mode: backwards;
+     animation-timing-function: linear; 
+     animation-duration: 0.7s;
+     animation-delay: 100ms
 
+
+    }
+    #play:hover .a1,#ins:hover .a2,#set:hover .a3{
+     background-color: #76ff03;
+     border-color: black;
+    }
 
     @keyframes hit{
      50%{
@@ -192,7 +227,24 @@
       opacity: 100%;
      }
     }
-    
+    @keyframes rotate{
+     33%{
+      right: 0px;
+      transform: scale(0.58);
+      opacity: 1;
+     }
+     35%{
+      opacity: 0;
+     }
+  
+     66%{
+      right: 35px;
+      transform: scale(0.58);
+      opacity: 0;
+     }
+  
+  
+    }
 
     </style>
      <body>
@@ -203,9 +255,21 @@
       <div id="b3"></div>
       <div class="ball"></div>
 
-     <button id="play">PLAY</button>
-     <button id="ins">INSTRUCTIONS</button>
-     <button id="set">SETTINGS</button>
+     <button id="play">PLAY
+      <div class="a1">
+       <div class="l1"></div>
+      </div>
+     </button>
+     <button id="ins">INSTRUCTIONS
+      <div class="a2">
+       <div class="l2"></div>
+      </div>
+     </button>
+     <button id="set">SETTINGS
+      <div class="a1">
+       <div class="l1"></div>
+      </div>
+     </button>
 
 
 
