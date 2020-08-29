@@ -149,7 +149,8 @@
 
     }
     #play:focus, #ins:focus, #set:focus{
-     outline: none;
+     outline: none !important;
+     border-color: yellow;
     }
 
     #play:hover,#set:hover,#ins:hover{
