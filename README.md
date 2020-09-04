@@ -117,7 +117,7 @@
      position: absolute;
      top: 415px;
      height: 0px;
-     left: 160px;
+     left: 170px;
      animation-delay: 1200ms;
 
     }
@@ -125,7 +125,7 @@
      height: 0px;
      position: absolute;
      top: 480px;
-     left: 215px;
+     left: 220px;
      animation-delay: 1.6s;
 
     }
