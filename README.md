@@ -249,3 +249,18 @@
 
 
     }
+    #ins_f{
+     border-width: 10px;
+     border-color: red;
+     width: 90%;
+    }
+    #ins_l{
+    position:relative;
+    top: -5px;
+    font-style: italic;
+    font-size: 50px;
+    color: green;
+    text-decoration: underline;
+    text-decoration-color: #ff6037;
+    text-decoration-width: 2px; 
+    }
